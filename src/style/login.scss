@@ -1,0 +1,85 @@
+.form_wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_box {
+  width: 366px;
+  height: 339px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: grey solid;
+}
+
+.logo_form {
+  width: 141px;
+  height: 21px;
+  margin-top: 43px;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_input {
+  width: 278px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #d0cece;
+  outline: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.login_input_login {
+  margin-top: 24px;
+}
+
+.login_input_password {
+  margin-top: 20px;
+}
+
+.buttons_block {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_button {
+  width: 278px;
+  height: 52px;
+  color: #ffffff;
+  background: #0062ff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.buttons_block button:hover {
+  cursor: pointer;
+  background: darkblue;
+}
+
+.login_input::-webkit-input-placeholder {
+  color: #e1e1e1;
+}
+.login_input::-moz-placeholder {
+  color: #e1e1e1;
+}
+.login_input:-ms-input-placeholder {
+  color: #e1e1e1;
+}
+
+.link_to_main {
+  display: none;
+}

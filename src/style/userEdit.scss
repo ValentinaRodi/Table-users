@@ -1,0 +1,40 @@
+.column__widht_small {
+    width: 150px;
+}
+
+.column__widht_big {
+    width: 210px;
+}  
+
+.input__widht_small {
+    width: 120px;
+}
+  
+.input__widht_big {
+width: 190px;
+}
+
+.column__widht_number {
+width: 50px;
+}
+
+.addUser__btn {
+    width: 150px;
+    
+    background-color: #0062ff;
+    
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+  
+    &:hover {
+      background-color: darkblue;
+    }
+}
+
+.widht-btn_small {
+    width: 120px;
+}
+  

@@ -1,0 +1,20 @@
+.hoverBlock {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: super;
+
+    &__btn {
+        width: 30px;
+        height: 20px;
+        padding: 0px;
+        border: none;
+        background-color: #fff;
+        line-height: initial;
+    }
+
+    &__img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+    }
+}

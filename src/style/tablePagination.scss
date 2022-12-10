@@ -1,0 +1,42 @@
+.custom-table {
+  &__pagination {
+    ul {
+      margin-bottom: 0;
+    }
+
+    .select-perpage {
+      max-width: 70px;
+      margin-left: 10px;
+    }
+  }
+
+}
+
+.custom-table {
+  &__action-btn {
+    cursor: pointer;
+    border: 2px solid grey;
+    background: none;
+    margin-right: 5px;
+
+    svg {
+      pointer-events: none;
+      padding: 5px;
+      width: 2.7em;
+      height: 2.7em;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: baseline;
+
+    height: 46px;
+    border: grey solid 2px;
+  }
+}
+
+.pagination-page {
+  width: 150px;
+  text-align: center;
+}

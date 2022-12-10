@@ -1,0 +1,52 @@
+.create {
+    width: 400px;
+    height: 600px;
+    text-align: start;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #e5e5e5;
+    border: solid 2px grey;
+
+    &__text {
+        font-weight: bold;
+    }
+
+    &__input {
+        margin-bottom: 10px;
+    }
+}
+
+.create-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.create__btn {
+    width: 150px;
+    height: 60px;
+    background-color: #0062ff;
+    color: #fff;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: darkblue;
+    }
+}
+
+
+.field-error::placeholder {
+    color: red;
+}
+
+.field-error_select {
+    color: red;
+}
+
+select option { color: black; }
+
+select option:first-child{
+    color: gray;
+}
